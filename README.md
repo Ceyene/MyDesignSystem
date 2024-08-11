@@ -1,10 +1,7 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
-
-## My Design System
+# My Design System
 
 A small design system with JS using Storybook.
+
 [![Built with Storybook library](https://img.shields.io/badge/built%20with-storybook-pink.svg)](https://storybook.js.org/)
 
 ## Quickstart
@@ -12,20 +9,15 @@ A small design system with JS using Storybook.
 To get started:
 
 ```bash
-npm init @open-wc
-# requires node 10 & npm 6 or higher
-npx storybook init
+npx storybook init --type html
+npm run storybook
 ```
 
 ## Scripts
 
 - `storybook` runs design system, reloading on file changes
-- `start` runs your app for development, reloading on file changes
-- `start:build` runs your app after it has been built using the build command
-- `build` builds your app and outputs it in your `dist` directory
+- `build-storybook` runs your app after it has been built using the build command
 - `test` runs your test suite with Web Test Runner
-- `lint` runs the linter for your project
-- `format` fixes linting and formatting errors
 
 ## Tooling configs
 
